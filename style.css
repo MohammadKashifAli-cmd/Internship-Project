@@ -1,0 +1,59 @@
+﻿body {
+    font-family: Arial, sans-serif;
+}
+
+.error {
+    border: 2px solid red;
+}
+
+
+h1 {
+    color: #007bff;
+}
+
+@media (max-width: 768px) {
+    #resume-output {
+        font-size: 14px;
+    }
+    button {
+        display: none; /* Hide all buttons during printing */
+    }
+}
+
+/*#cv-form{
+    display: none;
+}*/
+/*#cv-template {
+    display: none;
+}*/
+
+#cv-template {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 20px;
+    page-break-inside: avoid;
+}
+
+.myimg {
+    border-radius: 50%;
+    max-width: 150px;
+    margin-bottom: 15px;
+}
+
+.background {
+    background-color: #f8f9fa;
+    font-weight: bold;
+}
+
+h3 {
+    color: #333;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.card-header {
+    background-color: #007bff;
+    color: white;
+}
